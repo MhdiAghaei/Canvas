@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/input.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="sideNav">
+      <div class="inputBox">
+        <input type="file" class="fileInput" draggable="true" />
+      </div>
+      <div class="buttonBox">
+        <p>blur</p>
+        <input type="range" class="rangeInput blur" min="0" max="25" />
+      </div>
+      <div class="buttonBox">
+        <p>brightness</p>
+        <input type="range" class="rangeInput brightness" min="0" max="200" />
+      </div>
+      <div class="buttonBox">
+        <p>saturation</p>
+        <input type="range" class="rangeInput saturation" min="0" max="200" />
+      </div>
+      <div class="buttonBox">
+        <p>inversion</p>
+        <input type="range" class="rangeInput inversion" min="0" max="100" />
+      </div>
+      <div class="buttonBox">
+        <p>sepia</p>
+        <input type="range" class="rangeInput sepia" min="0" max="100" />
+      </div>
+    </div>
+    <div class="canvasBox">
+      <canvas></canvas>
+    </div>
+    <script src="custom.js"></script>
+  </body>
+</html>
